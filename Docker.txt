@@ -1,0 +1,34 @@
+ docker --version
+
+docker login //For Login
+
+docker --help // to see all commands
+
+docker info // info
+
+docker image COMMAND  // to see image commands
+
+docker pull ubuntu // to insert a image from docker hub
+
+docker pull alpine  // to insert a image from docker hub
+
+docker image ls // to see list of images
+
+docker pull postgres // database
+
+docker run -it ubuntu // 
+
+docker ps -a
+
+docker stats -a
+
+docker image ls
+
+
+
+
+
+
+
+
+

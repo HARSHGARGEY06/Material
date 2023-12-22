@@ -1,0 +1,11 @@
+// Chrome Driver 
+System.setProperty("webdriver.chrome.driver",
+				"D:\\eclipseje\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.co.in/");
+		Thread.sleep(1000);
+
+		driver.findElement(By.className("gLFyf")).sendKeys("swiggy");
+		Thread.sleep(1000);
+		driver.findElement(By.className("wM6W7d")).click();
+		Thread.sleep(1000);
